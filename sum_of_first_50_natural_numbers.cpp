@@ -17,7 +17,11 @@ int main()
         }
 
         cout << "Sum of first 50 natural numbers: " << sum << endl;
- 
+ // Method 2: Verify using the formula n(n+1)/2
+int formulaSum = 50 * (50 + 1) / 2;
+
+cout << "Sum using formula n(n+1)/2: "
+     << formulaSum << endl;
 
 	return 0;
 }
